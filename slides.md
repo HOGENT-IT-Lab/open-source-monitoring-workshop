@@ -29,10 +29,11 @@ https://hogent-it-lab.github.io/open-source-monitoring/slides <!-- URL naar de s
 
 ---
 
-# Wat is (open source) monitoring?
+# Wat is (open source) server monitoring?
 
-- Eerste slide
-- Monitoring is belangrijk!
+- Monitoring = systemen bekijken 
+- Bepaalde parameters in het oog houden (*metrics*)
+- Real-time of historisch overzicht van gebeurtenissen
 
 
 
@@ -40,10 +41,109 @@ https://hogent-it-lab.github.io/open-source-monitoring/slides <!-- URL naar de s
 
 # Waarom monitoring?
 
-- Dit is een tweede slide
+- Knowledge is power!
+- Problemen detecteren
+- Problemen in hun geheel vermijden!
+- Indrukwekkende dashboards...
+
+---
+
+# Mogelijkheden?
+
+<!-- Hier een slide met letterlijk allemaal logo's -->
 
 ---
 
 # Waarom open source??
 
-- Dit is vanzelfsprekend hoop ik!
+- Inzage in de broncode
+- Mogelijkheden tot customisation en aanpassing
+- Actieve communities
+- Mooi meegenomen: vaak gratis...
+
+---
+
+# Basic monitoring - what do we need?
+
+- Manier om bepaalde metrics te gaan blootstellen
+- Eventueel historische data gaan bijhouden
+- Overzicht genereren van deze informatie 
+- Optioneel: alerting!
+
+---
+
+# Metrics en hoe ze te verzamelen
+
+- Prometheus:
+- Node Exporter:
+
+---
+
+# Prometheus
+
+---
+
+# Node Exporter
+
+---
+
+# Dashboards, dashboards, dashboards
+
+- We willen data gaan structureren
+- Overzichtelijk maken
+- Gevoel dat we in ons eigen command center zitten
+- Tool: Grafana
+
+---
+
+# Grafana
+
+- Custom dashboards maken
+- Bestaande dashboards importeren en customizen
+- Verbinden met de correcte data-sources (Prometheus)
+- Optioneel: alerting instellen!
+
+---
+
+# Alerting
+
+- Problemen vaststellen en inlichten
+- Problemen proberen vermijden! (bv. 80% disk space volzet)
+- Integratie met veelgebruikte software (Teams, Slack, Discord, ...)
+
+---
+
+# Availability checken
+
+- Is mijn machine bereikbaar?
+- Is mijn website nog online?
+- Tool: Uptime Kuma!
+
+---
+
+# Uptime Kuma
+
+---
+
+
+# Praktische demo
+
+- Disclaimer: geen productie-setting
+- Indien interesse: source files inbegrepen in repo!
+- Ter illustratie van mogelijkheden
+
+---
+
+# Monitoring - advanced
+
+- Er bestaat veel geavanceerde software (zowel FOSS als proprietary)
+- Tech-stacks zoals ELK (Elasticsearch, Logstash, Kibana)
+- Tools zoals Zabbix, Nagios, Icinga, ...
+
+---
+
+# Take aways
+
+- Ga na wat voor jouw systeem belangrijk is
+- Ga op onderzoek uit (blogs, YouTube, vage IT-Lab workshops, ...)
+- Prutsen, prutsen, prutsen!
