@@ -25,13 +25,14 @@ Slides voor Open Source Monitoring workshop van het IT-lab
 
 https://hogent-it-lab.github.io/open-source-monitoring/slides <!-- URL naar de slides -->
 
-![QR bg right contain](./img/link_qr.png) <!-- QR-code naar de slides -->
+<!-- ![QR bg right contain](./img/link_qr.png) QR-code naar de slides -->
 
 ---
 
 # Wat is (open source) monitoring?
 
 - Eerste slide
+- Monitoring is belangrijk!
 
 
 
