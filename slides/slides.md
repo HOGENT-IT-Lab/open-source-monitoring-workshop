@@ -32,6 +32,7 @@ https://hogent-it-lab.github.io/open-source-monitoring/slides <!-- URL naar de s
 # Wat is (open source) monitoring?
 
 - Eerste slide
+- Monitoring is belangrijk!
 
 
 
