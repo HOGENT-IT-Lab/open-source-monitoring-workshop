@@ -14,12 +14,6 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
 Slides voor Open Source Monitoring workshop van het IT-lab
 
 
----
-
-![bg left:100% 80%](./img/logo.png) <!-- Plaats voor logo voor openingsslide, foefel gerust met de sizes van de bg -->
-
----
-
 
 # Meevolgen op:
 
@@ -31,7 +25,7 @@ https://hogent-it-lab.github.io/open-source-monitoring/slides <!-- URL naar de s
 
 # Wat is (open source) server monitoring?
 
-- Monitoring = systemen bekijken 
+- Monitoring = systemen bekijken en gadeslagen
 - Bepaalde parameters in het oog houden (*metrics*)
 - Real-time of historisch overzicht van gebeurtenissen
 
@@ -48,12 +42,6 @@ https://hogent-it-lab.github.io/open-source-monitoring/slides <!-- URL naar de s
 
 ---
 
-# Mogelijkheden?
-
-<!-- Hier een slide met letterlijk allemaal logo's -->
-
----
-
 # Waarom open source??
 
 - Inzage in de broncode
@@ -62,6 +50,16 @@ https://hogent-it-lab.github.io/open-source-monitoring/slides <!-- URL naar de s
 - Mooi meegenomen: vaak gratis...
 
 ---
+
+# Vandaag - introductie en voorbeelden
+
+- Testomgeving demonstreren
+- Tools kortstondig showcasen
+- Disclaimer: geen productie-setting
+- Ter illustratie van mogelijkheden
+
+---
+
 
 # Basic monitoring - what do we need?
 
@@ -74,16 +72,27 @@ https://hogent-it-lab.github.io/open-source-monitoring/slides <!-- URL naar de s
 
 # Metrics en hoe ze te verzamelen
 
-- Prometheus:
-- Node Exporter:
+- Metrics: komen in veel geuren en kleuren
+- We willen metrics van kritische toestellen verzamelen
+- Voorbeelden: memory usage, CPU usage, netwerkactiviteit, ...
 
 ---
 
 # Prometheus
 
+- Staat in voor het verzamelen van de data
+- Instellingen voor de targets en frequentie
+- Kan data ook historisch gaan bijhouden 
+- Open Source!
+
 ---
 
 # Node Exporter
+
+- Installeren we op het te monitoren toestellen
+- Onafscheidelijk van onze Prometheus instantie
+- De Node-exporter zal bepaalde data blootstellen die we willen gaan zien
+- Belangrijk: bescherm de eindpoint goed...
 
 ---
 
@@ -99,7 +108,7 @@ https://hogent-it-lab.github.io/open-source-monitoring/slides <!-- URL naar de s
 # Grafana
 
 - Custom dashboards maken
-- Bestaande dashboards importeren en customizen
+- Bestaande dashboards importeren/stelen en customizen
 - Verbinden met de correcte data-sources (Prometheus)
 - Optioneel: alerting instellen!
 
@@ -110,6 +119,7 @@ https://hogent-it-lab.github.io/open-source-monitoring/slides <!-- URL naar de s
 - Problemen vaststellen en inlichten
 - Problemen proberen vermijden! (bv. 80% disk space volzet)
 - Integratie met veelgebruikte software (Teams, Slack, Discord, ...)
+- Vandaag niet aan bod, maar kan zeker!
 
 ---
 
@@ -123,14 +133,9 @@ https://hogent-it-lab.github.io/open-source-monitoring/slides <!-- URL naar de s
 
 # Uptime Kuma
 
----
-
-
-# Praktische demo
-
-- Disclaimer: geen productie-setting
-- Indien interesse: source files inbegrepen in repo!
-- Ter illustratie van mogelijkheden
+- Simpele applicatie die connectivity tests doet
+- Mogelijkheden: ping tests, URL checks
+- Ook: TCP/UDP poorten checken, ...
 
 ---
 
